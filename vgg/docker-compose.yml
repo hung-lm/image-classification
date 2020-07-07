@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+    vgg16:
+        build:
+            context: .
+            dockerfile: Dockerfile.vgg16
+        ports:
+            - "8888:8888"
+            - "8097:8097"
+        volumes:
+            - type: bind
+              source: ${PWD}
+              target: /tmp/workspace
+        working_dir: /tmp/workspace
+        command: jupyter notebook --port=8888 --no-browser --ip=0.0.0.0 --allow-root --NotebookApp.token='' --NotebookApp.password=''
