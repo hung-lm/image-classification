@@ -1,0 +1,8 @@
+FROM ubuntu:18.04
+
+RUN apt-get update
+RUN apt-get install -y python3 python3-pip
+RUN pip3 install torch==1.5.1+cpu torchvision==0.6.1+cpu -f https://download.pytorch.org/whl/torch_stable.html
+RUN pip3 install notebook
+RUN pip3 install numpy>=1.17.0 visdom>=0.1.6 Pillow==6.2.0 onnx==1.6.0
+RUN pip3 install import_ipynb
