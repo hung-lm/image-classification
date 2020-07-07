@@ -5,3 +5,5 @@
 ### [AlexNet - ImageNet Classification with Deep Convolutional Neural Networks](alexnet/readme.md)
 
 ### [InceptionV3 - Rethinking the Inception Architecture for Computer Vision](inceptionv3/readme.md)
+
+### [EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks](efficientnet/readme.md)
