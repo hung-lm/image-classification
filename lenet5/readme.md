@@ -14,7 +14,7 @@
 
     docker exec -it lenet5_lenet5_1 /bin/bash
 
-* Notes: The container name `lenet5_lenet5_1` can be varied on difference system. The best practice is to type lenet5_ and then press `Tab` button to get the exact name.
+* Notes: The container name `lenet5_lenet5_1` can be varied on different system. The best practice is to type lenet5_ and then press `Tab` button to get the exact name.
 
 3. The previous command open a new bash. Inside that bash, run:
 
