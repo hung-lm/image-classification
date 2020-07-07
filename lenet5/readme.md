@@ -23,3 +23,7 @@
 3. From your host machine, browse:
 
     http://localhost:8888/model.ipynb
+
+4. To visualize training process via visdom, browse:
+
+    http://localhost:8097
